@@ -12,7 +12,14 @@ class SecondApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.lightBlue,
+        appBar: AppBar(
+          leading: const Icon(Icons.menu),
+          title: const Text("My First App"),
+          centerTitle: true,
+          actions: const [Icon(Icons.person)],
+          backgroundColor: Colors.lightBlue,
+        ),
+        backgroundColor: Colors.white,
         body: Center(
             child: Column(
           children: [
