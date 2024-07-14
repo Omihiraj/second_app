@@ -25,7 +25,7 @@ class SecondApp extends StatelessWidget {
               ),
               child: const Center(
                 child: Text(
-                  "Hello",
+                  "ආයුබෝවන්",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,
@@ -48,7 +48,7 @@ class SecondApp extends StatelessWidget {
               ),
               child: const Center(
                 child: Text(
-                  "Hello",
+                  "வணக்கம்",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,
